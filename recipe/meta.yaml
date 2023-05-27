@@ -1,11 +1,11 @@
-{% set version = "v0.2.1" %}
+{% set version = "0.2.1" %}
 
 package:
   name: aitch
   version: {{ version }}
 
 source:
-  url: https://github.com/JaneliaSciComp/aitch/archive/refs/tags/{{ version }}.tar.gz
+  url: https://github.com/JaneliaSciComp/aitch/archive/refs/tags/v{{ version }}.tar.gz
   sha256: c1975f61b35e510fc9e7214d8b7e52fb3a580415fa25544e74e267ebf79f2f33
 
 build:
@@ -24,7 +24,7 @@ test:
 
 about:
   home: https://github.com/JaneliaSciComp/aitch
-  summary: 'local scheduler for heterogenous jobs'
+  summary: local scheduler for heterogenous jobs
   description: |
     aitch (pronounced like the letter H) implements a light-weight
     cluster-style scheduler for use on a single workstation. Unlike parallel,
