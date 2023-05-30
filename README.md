@@ -9,10 +9,10 @@ Package license: BSD-3-Clause
 
 Summary: local scheduler for heterogenous jobs
 
-aitch (pronounced like the letter H) implements a light-weight
-cluster-style scheduler for use on a single workstation. Unlike parallel,
-xargs, and other similar utilities, which presume that all jobs use
-the same amount of resources, aitch permits one to request a different
+`aitch` (pronounced like the letter H) implements a light-weight
+cluster-style scheduler for use on a single workstation. Unlike `parallel`,
+`xargs`, and other similar utilities, which presume that all jobs use
+the same amount of resources, `aitch` permits one to request a different
 amount from an arbitrary number of unique kinds of resources. In effect
 it implements a counting semaphore for each resource and provides a
 means to adjust their values by non-negative integers.
@@ -47,6 +47,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=19512&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/aitch-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=19512&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/aitch-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
