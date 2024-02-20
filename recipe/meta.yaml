@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: aitch
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/JaneliaSciComp/aitch/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: f9bab1fdb3cb1e8d232aeaf00ce8bf9c2b2f193eb907983971b7df76f78aab17
+  sha256: e7f5c179709d7f6fd86e36eb45fcdadd9e56c2d5632685fbd4a24900486c51e0
 
 build:
   number: 0
